@@ -21,3 +21,6 @@ Scatter plot
 how to use pairplot - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 https://www.youtube.com/watch?v=uCgvlfIo9fg
 
+Jupyter Notebook
+Helpful link to learn how to start with Jupyter Notebook 
+https://medium.com/@claudia.nikel/how-to-setup-a-jupyter-notebook-in-vs-code-w-virtual-env-kernels-install-packages-884cf643375e
