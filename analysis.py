@@ -3,7 +3,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sb
+import seaborn as sns
 
 # Indicating the directory where the file is 
 path = '../pands-project/'
@@ -55,6 +55,6 @@ plt.show()
 # Outputing a scatter plot of each pair of variables
 # importing seaborn using 'size=' to output and fit in 
 # one windown
-sb.pairplot(df, hue='class', size=1.7)
+sns.pairplot(df, hue='class', size=1.7)
 plt.show()
-plt.savefig('scatter_plot.png')
+plt.savefig('pair_plot.png')
