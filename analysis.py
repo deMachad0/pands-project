@@ -66,5 +66,5 @@ plt.show()
 # importing seaborn using 'height=' to output and fit in 
 # one windown
 sns.pairplot(df, hue='class', height=1)
-plt.show()
 plt.savefig('pair_plot.png')
+plt.show()
