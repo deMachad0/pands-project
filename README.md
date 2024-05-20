@@ -10,6 +10,8 @@ Summary of each variable
 Programming and Scripting Lab Extra 10 - Pandas exercises and classes - it was very useful to help to read the file,
 use describe() and get the average values using mean()
 https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/27/02/2702b024905c9ab89836bff8d00e06dcdba0f367?response-content-disposition=inline%3B%20filename%3D%22Lab%2010%20pandas.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240519%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240519T142158Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21542&X-Amz-Signature=c3e1060e8a368e213f5a3820cd98f206d2549eb26225bad4f37a9d80224ae5a5
+How to use len() and shape[] to be able of counting the sample 
+https://stackoverflow.com/questions/17468878/pandas-python-how-to-count-the-number-of-records-or-rows-in-a-dataframe
 
 Histogram 
 How to create - https://docs.kanaries.net/topics/Pandas/pandas-plot-histogram 
@@ -24,3 +26,10 @@ https://www.youtube.com/watch?v=uCgvlfIo9fg
 Jupyter Notebook
 Helpful link to learn how to start with Jupyter Notebook 
 https://medium.com/@claudia.nikel/how-to-setup-a-jupyter-notebook-in-vs-code-w-virtual-env-kernels-install-packages-884cf643375e
+
+Conclusion 
+
+   The Iris dataset is very popular and has been used to demonstrate the fundamentals of statistical techniques and machine learning by many developers and Data analistics during the years. 
+   Iris dataset has 150 samples in total, 50 samples from each of three species of Iris flowers named Setosa, Versicolor and Virginica, in which they were measured by lengths and the widths of sepals and petals.
+
+
