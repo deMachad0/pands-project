@@ -65,6 +65,6 @@ plt.show()
 # Outputing a scatter plot of each pair of variables
 # importing seaborn using 'height=' to output and fit in 
 # one windown
-sns.pairplot(df, hue='class', height=1.7)
+sns.pairplot(df, hue='class', height=1)
 plt.show()
 plt.savefig('pair_plot.png')
