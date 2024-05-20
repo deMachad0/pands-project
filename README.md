@@ -1,4 +1,4 @@
-Fisher's Iris data set
+Fisher's Iris dataset
 
 Write a program called analysis.py that:
 1. Outputs a summary of each variable to a single text file,
@@ -29,7 +29,18 @@ https://medium.com/@claudia.nikel/how-to-setup-a-jupyter-notebook-in-vs-code-w-v
 
 Conclusion 
 
-   The Iris dataset is very popular and has been used to demonstrate the fundamentals of statistical techniques and machine learning by many developers and Data analistics during the years. 
+   The Iris dataset is very popular and has been used to demonstrate the fundamentals of statistical techniques and machine learning by many developers and Data analysts during the years. 
+   In 1936 Fisher introduced the Iris flower data set as an example of discriminant analysis. According to UCI Machine Learning Repository, the Iris dataset is widely used in pattern recognition learning. 
    Iris dataset has 150 samples in total, 50 samples from each of three species of Iris flowers named Setosa, Versicolor and Virginica, in which they were measured by lengths and the widths of sepals and petals.
+   As researched, it can be seen that in the average of iris plant classes, Iris virginica has the highest average sepal length and petal width, followed by Iris versicolor and Iris setosa.
+   The pairplot graphic also helps us to see that Iris setosa specie has the smallest petals widths and lengths, and sepal lenght but larger sepal widths if compared to any other species. Where the Iris virginica has the largest petal lengths and widths, while Iris versicolor is in the midle of the three species.
+   The tools used in python programming language in this dataset were mean() to find the average of all the species studied, len() to find the quantity of plant species, shape[] to find the exact number of samples and many histograms to help us to indentify each dimension of the species. 
 
+References 
+
+(2023, August 26). Exploring the Iris Dataset: A Journey from Data Loading to Model Building. Medium. Retrieved May 20, 2024, from https://medium.com/@Gayatri2410/exploring-the-iris-dataset-a-journey-from-data-loading-to-model-building-acf099ed4dd7
+
+(2021). About Fisher’s Iris dataset. Angela1c. Retrieved May 20, 2024, from https://www.angela1c.com/projects/iris_project/the-iris-dataset/
+
+(2024, March 20). Exploratory Data Analysis on Iris Dataset. Geeksforgeeks. Retrieved May 20, 2024, from https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/
 
