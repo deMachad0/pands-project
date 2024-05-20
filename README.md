@@ -23,6 +23,8 @@ Scatter plot
 how to use pairplot - https://seaborn.pydata.org/generated/seaborn.pairplot.html
 https://www.youtube.com/watch?v=uCgvlfIo9fg
 
+ps: My Scatter plot is not showing on github, so I pasted a screenshot (pair_plot_sc.png) with the graph to be checked
+
 Jupyter Notebook
 Helpful link to learn how to start with Jupyter Notebook 
 https://medium.com/@claudia.nikel/how-to-setup-a-jupyter-notebook-in-vs-code-w-virtual-env-kernels-install-packages-884cf643375e
