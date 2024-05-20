@@ -9,14 +9,24 @@ import seaborn as sns
 path = '../pands-project/'
 file_name_iris = path + 'iris.data'
 
+# Reading the file 
 df = pd.read_csv(file_name_iris)
 # removing from the file(iris.data) values that are missing
 df.dropna(inplace=True)
-# removing the duplicate values from the list
-df.drop_duplicates(inplace=True)
 # printing the DataFrame and descriptive statistics 'describe()'
 print(df)
 print(df.describe())
+
+# getting the iris plant sample quantity
+sample_quantity = df.shape[0]
+print("\nNumber of Iris plant data sample: ")
+print(sample_quantity)
+
+# getting the number of plant classes 
+class_quantity = df.groupby('class')
+print("\nNumber of Iris plant classes: ")
+print(len(class_quantity))
+
 
 # getting the average using mean()
 mean_values = df.groupby('class').mean()
@@ -53,8 +63,8 @@ plt.savefig('hist_petal_width.png')
 plt.show()
 
 # Outputing a scatter plot of each pair of variables
-# importing seaborn using 'size=' to output and fit in 
+# importing seaborn using 'height=' to output and fit in 
 # one windown
-sns.pairplot(df, hue='class', size=1.7)
+sns.pairplot(df, hue='class', height=1.7)
 plt.show()
 plt.savefig('pair_plot.png')
